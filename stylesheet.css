@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(204, 146, 166);
+    font-family: serif;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
+p {
+    font-family: serif;
+    font-size: 20px;
+}
+
+figure {
+    color: white;
+}
+
+ul {
+    color: white;
+}
