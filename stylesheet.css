@@ -1,22 +1,53 @@
 body {
-    background-color: lavenderblush;
-    font-family: serif;
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
 }
 
-h1 {
-    color: lightcoral;
-    font-size: 60px;
+.container {
+    width:80%;
+    margin: auto;
+    overflow: hidden;
 }
 
-p {
-    font-family: serif;
-    font-size: 20px;
+#main-header {
+    background-color: goldenrod;
+    color: #fff;
 }
 
-figure {
+#navbar {
+    background-color: black;
+    color: #fff;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none; /* no bullet points */
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+
+#showcase {
+    background-image:url('images/under-construction.jpeg');
+    background-position: center right;
+    height: 300;
     color: white;
 }
 
-ul {
-    color: white;
+
+#main-footer {
+    text-align: center;
 }
