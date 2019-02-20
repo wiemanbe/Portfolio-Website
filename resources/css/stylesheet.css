@@ -13,8 +13,16 @@ body {
     overflow: hidden;
 }
 
+.container a {
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: darkorange;
+}
+
 #main-header {
-    background-color: goldenrod;
+    background-color: black;
     color: #fff;
     font-size: 20px;
 }
@@ -27,17 +35,19 @@ body {
 #navbar ul {
     padding: 0;
     list-style: none; /* no bullet points */
+    text-align: right;
 }
 
 #navbar li {
     display: inline;
+
 }
 
 #navbar a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    padding-right: 15px;
+    padding-right: 50px;
 }
 
 #navbar a:hover {
@@ -53,6 +63,9 @@ body {
 
 
 #main-footer {
+    padding: 0;
     text-align: center;
     margin-top: 50px;
+    background-color: black;
+    color: white;
 }
